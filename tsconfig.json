@@ -1,0 +1,38 @@
+{
+  "include": ["src/**/*"],
+  // "exclude": ["node_modules/*"],
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "esnext",
+    "removeComments": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": "./src",
+    "paths": {
+      "~/*": ["./*"],
+      "types": ["svelte"],
+    },
+    "typeRoots": [                            /* List of folders to include type definitions from. */
+      // "src/@types",
+      "node_modules/@types/jest",
+      "node_modules/svelte/types"
+    ],
+    "types": [
+      "@types/jest",
+      "svelte",
+      "@types/testing-library__jest-dom"
+    ],
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+  }
+}
