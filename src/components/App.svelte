@@ -40,7 +40,7 @@
 	}
 
 	.vidycoin {
-		color: #FF3DAC;
+		color: #ff3dac;
 		font-size: 3em;
 	}
 
@@ -58,9 +58,22 @@
 	<figcaption>HIGH FIVE!</figcaption>
 </figure>
 
-<h1>Yo, this is the <Icon name="bomb"/></h1>
+<h1>
+	Yo, this is the
+	<Icon name="bomb" />
+</h1>
 
-<h2>This is a chevron  <Icon name="chevron" direction={directions[idx]}/></h2>
+<h2>
+	This is a chevron
+	<Icon name="chevron" direction={directions[idx]} />
+</h2>
 <h2>Let's rotate it {directionWords[idx]}</h2>
 <br />
-<h3>Slot for  more advanced icons: <div class="vidycoin"><Icon><VidyCoin /></Icon></div></h3>
+<h3>
+	Slot for more advanced icons:
+	<div class="vidycoin">
+		<Icon>
+			<VidyCoin />
+		</Icon>
+	</div>
+</h3>
